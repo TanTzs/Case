@@ -1,0 +1,29 @@
+---
+title: "案例实现"
+author: "谭朕斯"
+date: "2024-09-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 介绍
+此文档提供了案例报告中所用到的代码，可根据自己需求进行相应的替换。
+
+## 案例一
+根据
+```{r cars}
+iVX_est = iVXCalc(option_data,0.04) # 根据期权数据，设定利率为常数0.04，计算中国波指iVX
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

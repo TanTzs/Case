@@ -1,0 +1,7 @@
+# 在当前包目录中生成网站
+pkgdown::build_site()
+
+# 将网站发布到 GitHub Pages
+pkgdown::deploy_to_branch()
+git config --user.name "Tan Zhensi"
+git config --user.email "tantan_zs@163.com"

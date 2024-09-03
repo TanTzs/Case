@@ -1,0 +1,21 @@
+Package: Case
+Title: 案例实现程序包
+Version: 0.0.0.1
+Authors@R: 
+    person("Zhensi", "Tan", , "tantan_zs@163.com", role = c("aut", "cre"),
+           comment = '上海财经大学统计学博士研究生')
+Description: 用于实现教材案例中的实例所编写的R包，可用于估计中国波指iVX、简单策略回测以及波动率预测等方面。
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    forecast,
+    rugarch,
+    ggplot2,
+    lubridate,
+    xts
+Depends: 
+    R (>= 2.10)
+LazyData: true
